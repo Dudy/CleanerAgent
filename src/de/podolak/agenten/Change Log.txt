@@ -1,0 +1,4 @@
+Initial in Mercurial eingecheckt: 0.1
+
+0.1.1:
+    - unendlich große Area in Environment

@@ -1,0 +1,19 @@
+- Wegfindung zum nächsten dirty field
+- Kollisionserkennung
+- Inter-Agenten-Kommunikation
+- Inter-Agenten-Kooperation
+- hochauflösenderes Spielfeld: 1 Pixel
+- neue Spielfeldeigenschaft: Nahrung
+- Eigenschaften generischer, damit viele möglich sind, wie Sensoren
+- neuer Agent: Nahrung suchen
+- neuer Agent: Fortbewegung
+- neuer Agent: Verdauen (=Nahrung zu Energie umwandeln)
+- neuer Agent: Kombiagent aus drei anderen neuen Agenten
+
+allgemeiner Aufbau des Systems
+- es gibt eine Umgebung, in der alles stattfindet
+- der Agent hat Sensoren, um Eigenschaften der Umgebung zu erfassen
+- der Agent hat Aktoren, um Eigenschaften der Umgebung zu manipulieren
+- der Agent kann seine eigenen Aktionen bewerten, indem er deren Einfluß
+  auf die Eigenschaften der Umgebung untersucht
+- zur Bewertung seiner Aktionen verwendet der Agent ein Erfolgskriterium
